@@ -6,12 +6,10 @@
 /*   By: ntmalule <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/13 11:47:26 by ntmalule          #+#    #+#             */
-/*   Updated: 2020/07/13 14:08:36 by ntmalule         ###   ########.fr       */
+/*   Updated: 2020/07/15 13:36:01 by ntmalule         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <stdlid.h>
 
  char *ft_strcpy(char *dest, char *src)
 {
@@ -26,5 +24,15 @@
 	return (dest);
 
 }
+int main()
+{
+	char name[] = "ntiyiso";
+	char surname[]  = "malulee";
 
+	ft_strcpy(surname, name);
+
+	printf("%s", surname);
+	return(0);
+
+}
 
